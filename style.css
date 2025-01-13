@@ -1,0 +1,110 @@
+body {
+    margin: 10px;
+    background-image: url(Wallpaper.jpg);
+
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(165, 71, 42);
+    text-align: center;
+    position: relative;
+
+}
+
+h1 {
+    color: darkblue;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+h2 {
+    color: black;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 10px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+
+
+}
+header div{
+    background-image: url(Taj\ logo.jfif);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+
+}
+
+div.card img {
+    border-image: round;
+    width: 500px;
+    border-radius: 30px;
+
+}
+
+header ul {
+
+    right: 20px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+
+div.card {
+    text-align: center;
+    background-color: azure;
+    padding: 30px;
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 30px;
+
+    background-color: rgba(255, 182, 237, 0.829);
+
+
+
+}
+
+div.card p{
+    width: 300px;
+    
+}
+
+div.card div{
+
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    font-size: 20px;
+    align-items: center;
+    
+
+
+}
+
+div.socialicons {
+    
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+div.socialicons img{
+    width: 80px;
+}
+
+header li:hover {
+    background-color: blue;
+}
+
+h1:hover {
+    color: rgb(128, 0, 21);
+}
